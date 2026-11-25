@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Marileisy Montero Valdez, Técnica en Informática en Santo Domingo, República Dominicana.">
+  <meta name="author" content="Marileisy Montero Valdez">
+  <title>Marileisy Montero Valdez | Portafolio</title>
+
+  <!-- Bootstrap 5.3.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome 6.5.1 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg fixed-top" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio"><i class="fa-solid fa-code me-2"></i>Marileisy Montero Valdez</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+              aria-controls="navbarMenu" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <i class="fa-solid fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <button id="darkToggle" class="btn btn-outline-light btn-sm" type="button" aria-label="Cambiar entre modo claro y modo oscuro">
+              <i id="darkIcon" class="fa-solid fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ===== INICIO / HERO ===== -->
+    <section id="inicio" class="hero d-flex align-items-center" aria-label="Inicio">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-md-6 order-md-2 text-center">
+            <div class="avatar-wrap mx-auto">
+              <img src="https://i.postimg.cc/vHFgv0Mp/Whats-App-Image-2026-11-24-at-9-23-26-AM.jpg"
+                   alt="Foto de perfil de Marileisy Montero Valdez" class="avatar-img">
+              <span class="float-icon fi-1" aria-hidden="true"><i class="fa-brands fa-html5"></i></span>
+              <span class="float-icon fi-2" aria-hidden="true"><i class="fa-brands fa-css3-alt"></i></span>
+              <span class="float-icon fi-3" aria-hidden="true"><i class="fa-brands fa-square-js"></i></span>
+              <span class="float-icon fi-4" aria-hidden="true"><i class="fa-solid fa-database"></i></span>
+            </div>
+          </div>
+          <div class="col-md-6 order-md-1 text-center text-md-start">
+            <h1 class="hero-name mb-2">Marileisy Montero Valdez</h1>
+            <p class="hero-role fw-bold mb-2"><i class="fa-solid fa-laptop-code me-2"></i>Técnica en Informática</p>
+            <p class="text-muted mb-3"><i class="fa-solid fa-location-dot me-2"></i>Santo Domingo, República Dominicana</p>
+            <p class="lead">
+              Estudiante del área de Informática en el Politécnico Profesor Víctor Pascual Agüero,
+              con conocimientos básicos en programación, diseño y gestión de bases de datos,
+              soporte técnico y herramientas ofimáticas. Responsable, organizada y en constante aprendizaje.
+            </p>
+            <div class="d-flex gap-2 justify-content-center justify-content-md-start flex-wrap mt-4">
+              <a href="#proyectos" class="btn btn-brand"><i class="fa-solid fa-folder-open me-2"></i>Ver proyectos</a>
+              <a href="#contacto" class="btn btn-outline-brand"><i class="fa-solid fa-envelope me-2"></i>Contacto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE MÍ ===== -->
+    <section id="sobre-mi" class="section section-alt" aria-label="Sobre mí">
+      <div class="container py-5">
+        <h2 class="section-title mb-4">Sobre mí</h2>
+        <div class="row gy-4">
+          <div class="col-lg-12">
+            <p class="lead presentacion">
+              Soy estudiante del área de Informática en el Politécnico Profesor Víctor Pascual Agüero.
+              Me caracterizo por ser responsable, organizada y comprometida con mis estudios, con
+              conocimientos básicos en programación, diseño y gestión de bases de datos, soporte técnico
+              y manejo de herramientas ofimáticas. Tengo facilidad para el trabajo en equipo, la
+              adaptación y el aprendizaje continuo.
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <article class="card formacion-card h-100">
+              <div class="card-body">
+                <h3 class="h5 card-title"><i class="fa-solid fa-graduation-cap me-2"></i>Bachillerato Técnico en Informática</h3>
+                <p class="small fw-semibold fecha">2026-2027 &middot; Actualidad</p>
+                <p class="card-text mb-0">Politécnico Profesor Víctor Pascual Agüero. Formación técnica con
+                énfasis en programación básica, administración de bases de datos, soporte técnico de
+                computadoras y paquete Microsoft Office.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6">
+            <article class="card formacion-card h-100">
+              <div class="card-body">
+                <h3 class="h5 card-title"><i class="fa-solid fa-certificate me-2"></i>Curso de Paquete de Office Avanzado</h3>
+                <p class="small fw-semibold fecha">Formación tipo INFOTEP</p>
+                <p class="card-text mb-0">Curso impartido por el maestro Hilario Piñeiro, enfocado en el
+                uso avanzado del paquete de Microsoft Office.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 mt-2">
+            <h3 class="h4 mb-3"><i class="fa-solid fa-gears me-2"></i>Habilidades</h3>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge skill"><i class="fa-solid fa-file-word me-1"></i>Word</span>
+              <span class="badge skill"><i class="fa-solid fa-file-excel me-1"></i>Excel</span>
+              <span class="badge skill"><i class="fa-solid fa-file-powerpoint me-1"></i>PowerPoint</span>
+              <span class="badge skill"><i class="fa-solid fa-code me-1"></i>Programación básica</span>
+              <span class="badge skill"><i class="fa-solid fa-database me-1"></i>Diseño y gestión de bases de datos</span>
+              <span class="badge skill"><i class="fa-solid fa-screwdriver-wrench me-1"></i>Soporte técnico</span>
+              <span class="badge skill"><i class="fa-solid fa-people-group me-1"></i>Trabajo en equipo</span>
+              <span class="badge skill"><i class="fa-solid fa-comments me-1"></i>Comunicación efectiva</span>
+              <span class="badge skill"><i class="fa-solid fa-circle-check me-1"></i>Responsabilidad</span>
+              <span class="badge skill"><i class="fa-solid fa-list-check me-1"></i>Organización</span>
+              <span class="badge skill"><i class="fa-solid fa-book me-1"></i>Capacidad de aprendizaje</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROYECTOS ===== -->
+    <section id="proyectos" class="section" aria-label="Proyectos">
+      <div class="container py-5">
+        <h2 class="section-title mb-4">Proyectos</h2>
+        <div class="row gy-4">
+
+          <div class="col-md-4">
+            <article class="card project-card h-100">
+              <img src="https://i.postimg.cc/bNrQ3kY7/Whats-App-Image-2026-11-24-at-2-55-53-PM.jpg"
+                   class="card-img-top project-img" alt="Vista del sitio web de la Cooperativa de Manoguayabo">
+              <div class="card-body">
+                <h3 class="h5 card-title"><i class="fa-solid fa-globe me-2"></i>Sitio Web — Cooperativa de Manoguayabo</h3>
+                <p class="card-text">Página web informativa desarrollada como proyecto/práctica vinculada a la
+                Cooperativa de Manoguayabo para presentar información institucional y servicios.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="card project-card h-100">
+              <img src="https://i.postimg.cc/0Nrk4YHv/Whats-App-Image-2026-11-24-at-3-36-13-PM.jpg"
+                   class="card-img-top project-img" alt="Vista del proyecto Registro de Mascotas">
+              <div class="card-body">
+                <h3 class="h5 card-title"><i class="fa-solid fa-paw me-2"></i>Registro de Mascotas</h3>
+                <p class="card-text">Proyecto de interfaz (Microsoft Designer) enfocado en el registro de
+                mascotas, con funciones para registrar, editar y eliminar datos de forma organizada.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <article class="card project-card h-100">
+              <img src="https://i.postimg.cc/x1BdS5pM/Whats-App-Image-2026-11-24-at-9-41-58-PM.jpg"
+                   class="card-img-top project-img" alt="Vista del proyecto Portafolio Web Personal de Informática">
+              <div class="card-body">
+                <h3 class="h5 card-title"><i class="fa-solid fa-id-card me-2"></i>Portafolio Web Personal de Informática</h3>
+                <p class="card-text">Proyecto web responsive desarrollado con HTML5, CSS3, Bootstrap y
+                JavaScript para presentar perfil técnico, formación, experiencia y proyectos.</p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCIA ===== -->
+    <section id="experiencia" class="section section-alt" aria-label="Experiencia">
+      <div class="container py-5">
+        <h2 class="section-title mb-4">Experiencia</h2>
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <article class="card exp-card h-100">
+              <img src="https://i.postimg.cc/cJTL2W3K/Whats-App-Image-2026-11-24-at-9-06-15-PM.jpg"
+                   class="card-img-top exp-img" alt="Prácticas en la Cooperativa de Manoguayabo">
+              <div class="card-body">
+                <h3 class="h5 card-title"><i class="fa-solid fa-building me-2"></i>Prácticas en Cooperativa de Manoguayabo</h3>
+                <p class="small fw-semibold fecha">Prácticas técnicas</p>
+                <ul class="mb-0">
+                  <li>Apoyo en el formateo de computadoras.</li>
+                  <li>Reparación y arreglo de cableados.</li>
+                  <li>Revisión y cambio de baterías de UPS.</li>
+                  <li>Participación en proyecto web.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-6">
+            <article class="card exp-card h-100">
+              <img src="https://i.postimg.cc/fWdh0Zbt/Whats-App-Image-2026-11-24-at-9-06-15-PM-%281%29.jpg"
+                   class="card-img-top exp-img" alt="Prácticas y proyectos académicos en Informática">
+              <div class="card-body">
+                <h3 class="h5 card-title"><i class="fa-solid fa-school me-2"></i>Prácticas y proyectos académicos en Informática</h3>
+                <p class="small fw-semibold fecha">Politécnico Profesor Víctor Pascual Agüero</p>
+                <ul class="mb-0">
+                  <li>Participación en prácticas escolares.</li>
+                  <li>Desarrollo de habilidades básicas en programación y bases de datos.</li>
+                  <li>Elaboración de documentos técnicos.</li>
+                  <li>Trabajo colaborativo.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section id="contacto" class="section" aria-label="Contacto">
+      <div class="container py-5">
+        <h2 class="section-title mb-4">Contacto</h2>
+        <div class="row gy-4">
+
+          <div class="col-lg-7">
+            <form id="contactForm" class="p-4 rounded-4 contact-form" novalidate aria-label="Formulario de contacto">
+              <div class="mb-3">
+                <label for="nombre" class="form-label fw-semibold">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                <div class="invalid-feedback">Por favor, escribe tu nombre.</div>
+              </div>
+              <div class="mb-3">
+                <label for="correo" class="form-label fw-semibold">Correo</label>
+                <input type="email" class="form-control" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+                <div class="invalid-feedback">Por favor, escribe un correo válido.</div>
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label fw-semibold">Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+                <div class="invalid-feedback">Por favor, escribe un mensaje.</div>
+              </div>
+              <button type="submit" class="btn btn-brand"><i class="fa-solid fa-paper-plane me-2"></i>Enviar mensaje</button>
+              <div id="formAlert" class="alert alert-success mt-3 mb-0 d-none" role="alert">¡Mensaje enviado! 📧</div>
+            </form>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="card h-100 p-2">
+              <div class="card-body">
+                <h3 class="h5 mb-3 fw-bold">Datos de contacto</h3>
+                <ul class="list-unstyled contact-list mb-3">
+                  <li><i class="fa-solid fa-envelope me-2"></i>
+                    <a href="mailto:marileisismonterovaldes@gmail.com">marileisismonterovaldes@gmail.com</a>
+                  </li>
+                  <li><i class="fa-solid fa-phone me-2"></i>
+                    <a href="tel:+18097492419">809-749-2419</a>
+                  </li>
+                  <li><i class="fa-brands fa-whatsapp me-2"></i>
+                    <a href="https://wa.me/qr/WRCJLMFGQ6Z2J1" target="_blank" rel="noopener">WhatsApp</a>
+                  </li>
+                  <li><i class="fa-solid fa-location-dot me-2"></i>Santo Domingo, República Dominicana</li>
+                  <li><i class="fa-brands fa-instagram me-2"></i>
+                    <a href="https://www.instagram.com/si_soy_2009" target="_blank" rel="noopener">@SI_SOY_2009</a>
+                  </li>
+                </ul>
+
+                <div class="qr-box text-center">
+                  <div class="qr-placeholder mx-auto mb-2"><i class="fa-solid fa-qrcode"></i></div>
+                  <p class="mb-1 small text-muted">Espacio reservado para el código QR de Instagram</p>
+                  <a href="https://www.instagram.com/si_soy_2009" target="_blank" rel="noopener"
+                     class="fw-bold text-decoration-none">@SI_SOY_2009</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="text-center py-4" role="contentinfo">
+    <p class="mb-0">&copy; <span id="year"></span> Marileisy Montero Valdez. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Script propio -->
+  <script src="script.js"></script>
+</body>
+</html>
